@@ -1,6 +1,4 @@
-package com.example.designpatterns.SimpleFactory;
-
-import static com.example.designpatterns.SimpleFactory.Type.AIR;
+package com.example.designpatterns.simpleFactory;
 
 public class VehicleFactory {
     public static Vehicle createVehicle(Type type) throws ClassNotFoundException {

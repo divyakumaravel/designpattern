@@ -1,4 +1,4 @@
-package com.example.designpatterns.SimpleFactory;
+package com.example.designpatterns.simpleFactory;
 /*
 * Simple factory -> Instantiating objects extending from a parent class
 *  based on a parameter using a static method.
