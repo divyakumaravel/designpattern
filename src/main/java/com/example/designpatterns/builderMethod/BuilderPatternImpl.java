@@ -1,5 +1,10 @@
 package com.example.designpatterns.builderMethod;
 
+import com.example.designpatterns.builderMethod.employee.Employee;
+import com.example.designpatterns.builderMethod.employee.EmployeeDTO;
+import com.example.designpatterns.builderMethod.employee.EmployeeDTOBuilder;
+import com.example.designpatterns.builderMethod.employee.EmployeeWebDTOBuilder;
+
 public class BuilderPatternImpl {
 
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.example.designpatterns.builderMethod;
+package com.example.designpatterns.builderMethod.employee;
 
 public interface EmployeeDTOBuilder {
 
