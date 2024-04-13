@@ -11,6 +11,9 @@ import com.example.designpatterns.builderMethod.home.MyHomeDTOBuilder;
 
 import java.util.Objects;
 
+/*
+ * Builder pattern - A way to construct complex objects
+ * */
 public class BuilderPatternImpl {
 
     public static void main(String[] args) {
