@@ -1,4 +1,4 @@
-package com.example.designpatterns.factoryMethod;
+package com.example.designpatterns.factoryMethodPattern;
 
 public class JSONMessage extends Message{
     @Override

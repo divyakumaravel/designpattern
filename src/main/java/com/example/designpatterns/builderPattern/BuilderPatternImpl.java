@@ -1,15 +1,13 @@
-package com.example.designpatterns.builderMethod;
+package com.example.designpatterns.builderPattern;
 
-import com.example.designpatterns.builderMethod.employee.Employee;
-import com.example.designpatterns.builderMethod.employee.EmployeeDTO;
-import com.example.designpatterns.builderMethod.employee.EmployeeDTOBuilder;
-import com.example.designpatterns.builderMethod.employee.EmployeeWebDTOBuilder;
-import com.example.designpatterns.builderMethod.home.Home;
-import com.example.designpatterns.builderMethod.home.HomeDTO;
-import com.example.designpatterns.builderMethod.home.HomeDTOBuilder;
-import com.example.designpatterns.builderMethod.home.MyHomeDTOBuilder;
-
-import java.util.Objects;
+import com.example.designpatterns.builderPattern.employee.Employee;
+import com.example.designpatterns.builderPattern.employee.EmployeeDTO;
+import com.example.designpatterns.builderPattern.employee.EmployeeDTOBuilder;
+import com.example.designpatterns.builderPattern.employee.EmployeeWebDTOBuilder;
+import com.example.designpatterns.builderPattern.home.Home;
+import com.example.designpatterns.builderPattern.home.HomeDTO;
+import com.example.designpatterns.builderPattern.home.HomeDTOBuilder;
+import com.example.designpatterns.builderPattern.home.MyHomeDTOBuilder;
 
 /*
  * Builder pattern - A way to construct complex objects

@@ -1,4 +1,4 @@
-package com.example.designpatterns.simpleFactory;
+package com.example.designpatterns.simpleFactoryPattern;
 
 public class VehicleFactory {
     public static Vehicle createVehicle(Type type) throws ClassNotFoundException {

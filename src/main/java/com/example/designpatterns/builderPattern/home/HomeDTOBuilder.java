@@ -1,4 +1,4 @@
-package com.example.designpatterns.builderMethod.home;
+package com.example.designpatterns.builderPattern.home;
 
 public interface HomeDTOBuilder {
     HomeDTOBuilder buildWalls(String walls);

@@ -1,4 +1,4 @@
-package com.example.designpatterns.simpleFactory;
+package com.example.designpatterns.simpleFactoryPattern;
 
 public enum Type {
     AIR("AIR"), ROAD("ROAD"), WATER("WATER");

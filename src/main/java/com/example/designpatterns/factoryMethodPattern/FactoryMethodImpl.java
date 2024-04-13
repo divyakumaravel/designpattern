@@ -1,4 +1,4 @@
-package com.example.designpatterns.factoryMethod;
+package com.example.designpatterns.factoryMethodPattern;
 
 /*
 * Move object creation logic to a different class.

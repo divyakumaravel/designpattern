@@ -1,4 +1,4 @@
-package com.example.designpatterns.factoryMethod;
+package com.example.designpatterns.factoryMethodPattern;
 
 public abstract class MessageFactory {
 

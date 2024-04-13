@@ -1,4 +1,4 @@
-package com.example.designpatterns.builderMethod.employee;
+package com.example.designpatterns.builderPattern.employee;
 
 public class Employee {
 
