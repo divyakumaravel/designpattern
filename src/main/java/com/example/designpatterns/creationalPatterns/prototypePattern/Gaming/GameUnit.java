@@ -2,6 +2,10 @@ package com.example.designpatterns.creationalPatterns.prototypePattern.Gaming;
 
 import javafx.geometry.Point3D;
 
+/*
+* Cloneable marker interface have to be used inorder to clone
+* Marker interface  is an interface that doesn't have any methods or constants inside it
+* */
 public abstract class GameUnit implements Cloneable {
     private Point3D position;
 
