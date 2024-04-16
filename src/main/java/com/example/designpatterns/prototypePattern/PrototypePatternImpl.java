@@ -1,5 +1,6 @@
-package com.example.designpatterns.prototypePattern.Gaming;
+package com.example.designpatterns.prototypePattern;
 
+import com.example.designpatterns.prototypePattern.Gaming.Swordsman;
 import javafx.geometry.Point3D;
 
 /*
