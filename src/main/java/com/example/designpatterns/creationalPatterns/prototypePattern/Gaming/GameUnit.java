@@ -5,7 +5,11 @@ import javafx.geometry.Point3D;
 /*
 * Cloneable marker interface have to be used inorder to clone
 * Marker interface  is an interface that doesn't have any methods or constants inside it
-* */
+* You can either do shallow or deep copy
+* Shallow copy: Shallow Copy stores the references of objects to the original memory address.
+* Deep copy: Deep copy stores copies of the object’s value.
+* Shallow copy is faster than the deep copy
+ * */
 public abstract class GameUnit implements Cloneable {
     private Point3D position;
 
@@ -18,6 +22,7 @@ public abstract class GameUnit implements Cloneable {
     }
 
     public void move(Point3D direction, float distance) {
+        //Since Point3D is immuable we do a shallow copy
         Point3D finalMove = direction.normalize();
         finalMove = finalMove.multiply(distance);
         position = position.add(finalMove);
